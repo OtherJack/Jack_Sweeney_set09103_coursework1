@@ -8,9 +8,9 @@
 $
 
 # Command Line History (newest to oldest):
-:w
-:wq
 :q
+:wq
+:w
 :W
 :wq imgDis.py
 :wq style.css
@@ -50,22 +50,23 @@ $
 	i
 
 # File marks:
-'0  15  6  ~/templates/bootstrapTest.html
-'1  10  23  ~/bootstrapTest.py
-'2  6  43  ~/bootstrapTest.py
-'3  14  6  ~/bootstrapTest.html
-'4  6  30  ~/workbook/testing.py
-'5  9  22  ~/workbook/testing_test.py
-'6  4  6  ~/workbook/testing_test.py
-'7  9  12  ~/workbook/testing.py
-'8  1  0  ~/workbook/var/testing_test.py
-'9  1  0  ~/workbook/var/a
+'0  1  0  ~/bootstrapTest.py
+'1  47  6  ~/templates/bootstrapTest.html
+'2  4  82  ~/templates/bootstrapTest.html
+'3  10  23  ~/bootstrapTest.py
+'4  6  43  ~/bootstrapTest.py
+'5  14  6  ~/bootstrapTest.html
+'6  6  30  ~/workbook/testing.py
+'7  9  22  ~/workbook/testing_test.py
+'8  4  6  ~/workbook/testing_test.py
+'9  9  12  ~/workbook/testing.py
 
 # Jumplist (newest first):
--'  15  6  ~/templates/bootstrapTest.html
--'  1  0  ~/templates/bootstrapTest.html
--'  10  23  ~/bootstrapTest.py
 -'  1  0  ~/bootstrapTest.py
+-'  47  6  ~/templates/bootstrapTest.html
+-'  1  0  ~/templates/bootstrapTest.html
+-'  4  82  ~/templates/bootstrapTest.html
+-'  10  23  ~/bootstrapTest.py
 -'  6  43  ~/bootstrapTest.py
 -'  14  6  ~/bootstrapTest.html
 -'  1  0  ~/bootstrapTest.html
@@ -159,22 +160,11 @@ $
 -'  10  0  ~/hello.py
 -'  1  0  ~/hello.py
 -'  2  19  ~/first.py
--'  1  0  ~/first.py
--'  1  19  ~/'first.py'
--'  24  0  ~/.profile
 
 # History of marks within files (newest to oldest):
 
-> ~/templates/bootstrapTest.html
-	"	15	6
-	^	4	23
-	.	4	23
-	+	4	69
-	+	4	87
-	+	4	23
-
 > ~/bootstrapTest.py
-	"	10	23
+	"	1	0
 	^	4	5
 	.	4	4
 	+	10	15
@@ -182,6 +172,35 @@ $
 	+	10	36
 	+	6	43
 	+	4	4
+
+> ~/templates/bootstrapTest.html
+	"	47	6
+	^	47	7
+	.	45	65
+	+	4	70
+	+	4	88
+	+	4	32
+	+	4	82
+	+	4	155
+	+	4	44
+	+	10	0
+	+	5	7
+	+	3	1
+	+	4	1
+	+	4	34
+	+	5	1
+	+	9	9
+	+	15	25
+	+	21	18
+	+	20	53
+	+	28	0
+	+	26	2
+	+	28	0
+	+	26	2
+	+	35	8
+	+	45	0
+	+	44	9
+	+	45	65
 
 > ~/bootstrapTest.html
 	"	14	6
