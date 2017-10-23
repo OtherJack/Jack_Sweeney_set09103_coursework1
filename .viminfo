@@ -8,9 +8,9 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
 :w
+:q
 :W
 :wq imgDis.py
 :wq style.css
@@ -43,6 +43,8 @@ $
 	print "Hello Napier"
 "3	LINE	0
 	
+"4	LINE	0
+	
 "w	CHAR	0
 	1056
 <dwsa€kbr"€kb€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý2€ý4€ý,€ý.w€ýL€ýL€ýL€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.r€ý,€ý.€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kd€kd€kd	€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ý2€ý4€ý,€ý.€ý,€ý.€ýK€ýK€ý,€ý.               €kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€ý,€ý.€kr€kr€kr€kd€kd€kl€kl€kr€kr€krrrr€kr€kD€kriii€kb€kb€kI€kI€kI€kI€kI€kI€kI€kI€kI€kI€kI€kr€kr"€kr€kd€kd€kd€kd€kd€kl€kl€kr€kr€kr€kI€kI€kI€kr	€kb€kb€K1€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€K4€kD€kDc€kb€kI€kI€kI€kI€krcciop€kb€kb€kb€kb€kb€kbprint "Hello Napier""€kb€kb€kb€kN€kPcv€kb€kb€ý,€ý-€ý.€k1€ý,€ý-€ý.€kr€kdo€kb€kb€kb"€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbc€kr€kr€kr€kd€k1q
@@ -50,24 +52,34 @@ $
 	i
 
 # File marks:
-'0  1  0  ~/bootstrapTest.py
-'1  47  6  ~/templates/bootstrapTest.html
-'2  4  82  ~/templates/bootstrapTest.html
-'3  10  23  ~/bootstrapTest.py
-'4  6  43  ~/bootstrapTest.py
-'5  14  6  ~/bootstrapTest.html
-'6  6  30  ~/workbook/testing.py
-'7  9  22  ~/workbook/testing_test.py
-'8  4  6  ~/workbook/testing_test.py
-'9  9  12  ~/workbook/testing.py
+'0  1  0  ~/templates/index.html
+'1  16  43  ~/templates/404.html
+'2  14  36  ~/index.py
+'3  41  19  ~/templates/index.html
+'4  1  0  ~/index.html
+'5  35  21  ~/templates/index.html
+'6  8  29  ~/templates/index.html
+'7  33  34  ~/templates/index.html
+'8  1  0  ~/index.py
+'9  47  6  ~/templates/bootstrapTest.html
 
 # Jumplist (newest first):
--'  1  0  ~/bootstrapTest.py
+-'  1  0  ~/templates/index.html
+-'  16  43  ~/templates/404.html
+-'  1  0  ~/templates/404.html
+-'  14  36  ~/index.py
+-'  1  0  ~/index.py
+-'  41  19  ~/templates/index.html
+-'  1  0  ~/index.html
+-'  35  21  ~/templates/index.html
+-'  8  29  ~/templates/index.html
+-'  33  34  ~/templates/index.html
 -'  47  6  ~/templates/bootstrapTest.html
 -'  1  0  ~/templates/bootstrapTest.html
+-'  6  35  ~/bootstrapTest.py
+-'  1  0  ~/bootstrapTest.py
 -'  4  82  ~/templates/bootstrapTest.html
 -'  10  23  ~/bootstrapTest.py
--'  6  43  ~/bootstrapTest.py
 -'  14  6  ~/bootstrapTest.html
 -'  1  0  ~/bootstrapTest.html
 -'  6  30  ~/workbook/testing.py
@@ -151,32 +163,89 @@ $
 -'  1  0  ~/static/style.css
 -'  1  0  ~/style.css
 -'  15  25  ~/displayImg.py
--'  1  0  ~/displayImg.py
--'  13  1  ~/displayImg.py
--'  1  0  ~/displayImg
--'  15  27  ~/displayImg
--'  19  33  ~/redirect.py
--'  1  0  ~/redirect.py
--'  10  0  ~/hello.py
--'  1  0  ~/hello.py
--'  2  19  ~/first.py
 
 # History of marks within files (newest to oldest):
 
-> ~/bootstrapTest.py
+> ~/templates/404.html
+	"	16	43
+	^	19	7
+	.	11	3
+	+	1	6
+	+	18	7
+	+	19	6
+	+	3	20
+	+	4	34
+	+	6	9
+	+	11	9
+	+	5	77
+	+	6	0
+	+	6	0
+	+	6	1
+	+	11	3
+
+> ~/templates/.404.html.swp
+	"	1	26
+
+> ~/index.py
+	"	14	36
+	^	10	41
+	.	10	40
+	+	2	131
+	+	2	258
+	+	2	131
+	+	2	175
+	+	1	48
+	+	2	82
+	+	2	34
+	+	4	0
+	+	6	41
+	+	2	21
+	+	3	0
+	+	1	40
+	+	10	40
+
+> ~/templates/index.html
+	"	41	19
+	^	26	24
+	.	26	23
+	+	26	45
+	+	31	41
+	+	32	26
+	+	33	45
+	+	35	43
+	+	34	33
+	+	7	52
+	+	26	47
+	+	31	49
+	+	32	34
+	+	33	34
+	+	9	0
+	+	8	29
+	+	31	21
+	+	32	34
+	+	33	34
+	+	34	34
+	+	35	34
+	+	32	21
+	+	33	21
+	+	34	21
+	+	35	21
+	+	31	21
+	+	32	21
+	+	33	21
+	+	34	21
+	+	35	21
+	+	26	32
+	+	31	21
+	+	26	23
+
+> ~/index.html
 	"	1	0
-	^	4	5
-	.	4	4
-	+	10	15
-	+	9	2
-	+	10	36
-	+	6	43
-	+	4	4
 
 > ~/templates/bootstrapTest.html
 	"	47	6
 	^	47	7
-	.	45	65
+	.	3	25
 	+	4	70
 	+	4	88
 	+	4	32
@@ -201,6 +270,18 @@ $
 	+	45	0
 	+	44	9
 	+	45	65
+	+	3	25
+
+> ~/bootstrapTest.py
+	"	6	35
+	^	6	36
+	.	6	35
+	+	10	15
+	+	9	2
+	+	10	36
+	+	6	43
+	+	4	4
+	+	6	35
 
 > ~/bootstrapTest.html
 	"	14	6
