@@ -12,7 +12,7 @@ def lcd():
 
 @app.route("/LCD")
 def relcd():
-  return redirect(url_for('lcd'))
+  return redirect(url_for('lcd')), 301
 
 @app.route('/ArcadeFire')
 def af():
@@ -20,7 +20,7 @@ def af():
 
 @app.route('/AF')
 def reaf():
-  return redirect(url_for('af'))
+  return redirect(url_for('af')), 301
 
 @app.route('/Radiohead')
 def rh():
@@ -28,7 +28,7 @@ def rh():
 
 @app.route('/RH')
 def rerh():
-  return redirect(url_for('rh'))
+  return redirect(url_for('rh')), 301
 
 @app.route('/ArcticMonkeys')
 def am():
@@ -36,7 +36,7 @@ def am():
 
 @app.route('/AM')
 def ream():
-  return redirect(url_for('am'))
+  return redirect(url_for('am')), 301
 
 @app.errorhandler(404)
 def page_not_found(error):
