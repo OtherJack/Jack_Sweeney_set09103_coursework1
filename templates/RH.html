@@ -1,6 +1,6 @@
  <html>
 <head>
-  <title>My Favorite Bands</title>
+  <title>Bands | Radiohead</title>
   <link href="{{ url_for('static',
   filename='bootstrap-3.3.5-dist/css/bootstrap.min.css') }}" rel="stylesheet"
   alt="LCD" width="50px" height="50px" />
@@ -9,7 +9,10 @@
       padding-top:50px;
       background-color:#ACDFFF;
     }
-  </style>
+    img{
+      float:center;
+    }
+ </style>
 </head>
 
 <body>
@@ -40,35 +43,20 @@
   </nav>
 
   <div class="container">
-      <h1>Welcome to my site</h1>
-      <p class="lead">These are some of my favorite bands, click each album to
-      read about each, alternatively you can use the navigation bar to find pages</p>
+      <h1>Radiohead</h1>
 
   <div class="container">
     <div class="row imagetiles">
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      <img src="static/lcd.jpg" alt="LCD" class="img-responsive" >
-      <a href="LCDSoundsystem">LCD Soundsystem</a>
-      </div>
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      <img src="static/AF.jpg" alt="AF" class="img-responsive"> 
-      <a href="/ArcadeFire">Arcade Fire</a>
-      </div>
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+      
       <img src="static/RH.jpg" alt="RH" class="img-responsive">
-      <a href="/Radiohead">Radiohead</a>
-      </div>
-
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      <img src="static/AM.jpg" alt="AM" class="img-responsive">
-      <a href="/ArcticMonkeys">Arctic Monkeys</a>
       </div>
 
     </div>
+  <p class="lead">Radiohead area a band from OXford in the UK. They have had 9
+  albums to date.</p>
  </div>
- 
  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

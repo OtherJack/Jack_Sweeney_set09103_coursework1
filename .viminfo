@@ -4,6 +4,9 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<app\>
+
 # Last Substitute String:
 $
 
@@ -26,6 +29,7 @@ $
 :wq!
 
 # Search String History (newest to oldest):
+? \<app\>
 ? ^\d\{3}ÿ
 
 # Expression History (newest to oldest):
@@ -45,25 +49,36 @@ $
 	
 "4	LINE	0
 	
+"5	LINE	0
+	
 "w	CHAR	0
 	1056
 <dwsa€kbr"€kb€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý2€ý4€ý,€ý.w€ýL€ýL€ýL€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ý,€ý.r€ý,€ý.€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kd€kd€kd	€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ü €ý,€ü €ý.€ü@€ý,€ü@€ý.€ü`€ý,€ü`€ý.€ý,€ý.€ý2€ý4€ý,€ý.€ý,€ý.€ýK€ýK€ý,€ý.               €kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€ý,€ý.€kr€kr€kr€kd€kd€kl€kl€kr€kr€krrrr€kr€kD€kriii€kb€kb€kI€kI€kI€kI€kI€kI€kI€kI€kI€kI€kI€kr€kr"€kr€kd€kd€kd€kd€kd€kl€kl€kr€kr€kr€kI€kI€kI€kr	€kb€kb€K1€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€K4€kD€kDc€kb€kI€kI€kI€kI€krcciop€kb€kb€kb€kb€kb€kbprint "Hello Napier""€kb€kb€kb€kN€kPcv€kb€kb€ý,€ý-€ý.€k1€ý,€ý-€ý.€kr€kdo€kb€kb€kb"€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbc€kr€kr€kr€kd€k1q
 ""-	CHAR	0
-	i
+	x
 
 # File marks:
-'0  1  0  ~/.gitignore
-'1  1  0  ~/index.html
-'2  1  0  ~/project/templates/index.html
-'3  4  33  ~/project/templates/404.html
-'4  1  0  ~/project/404.html
-'5  31  7  ~/templates/index.html
-'6  8  29  ~/templates/index.html
-'7  33  34  ~/templates/index.html
-'8  1  0  ~/index.py
-'9  47  6  ~/templates/bootstrapTest.html
+'0  71  0  ~/templates/index.html
+'1  1  0  ~/etc/defaults.cfg
+'2  33  0  ~/index.py
+'3  53  34  ~/index.py
+'4  5  27  ~/etc/defaults.cfg
+'5  58  58  ~/index.py
+'6  1  0  ~/.gitignore
+'7  1  0  ~/index.html
+'8  1  0  ~/project/templates/index.html
+'9  4  33  ~/project/templates/404.html
 
 # Jumplist (newest first):
+-'  71  0  ~/templates/index.html
+-'  1  1  ~/templates/index.html
+-'  1  0  ~/etc/defaults.cfg
+-'  33  0  ~/index.py
+-'  1  0  ~/index.py
+-'  53  34  ~/index.py
+-'  39  0  ~/index.py
+-'  5  27  ~/etc/defaults.cfg
+-'  58  58  ~/index.py
 -'  1  0  ~/.gitignore
 -'  1  0  ~/index.html
 -'  1  0  ~/project/templates/index.html
@@ -71,10 +86,8 @@ $
 -'  1  0  ~/project/templates/404.html
 -'  1  0  ~/project/404.html
 -'  31  7  ~/templates/index.html
--'  1  0  ~/templates/index.html
 -'  8  29  ~/templates/index.html
 -'  33  34  ~/templates/index.html
--'  1  0  ~/index.py
 -'  47  6  ~/templates/bootstrapTest.html
 -'  1  0  ~/templates/bootstrapTest.html
 -'  6  35  ~/bootstrapTest.py
@@ -156,15 +169,250 @@ $
 -'  1  0  ~/static/RandR.py
 -'  23  36  ~/static/RandR.py
 -'  17  11  ~/static/decorator.py
--'  1  0  ~/static/decorator.py
--'  1  0  ~/static/imgDis.py
--'  16  0  ~/static/imgDis.py
--'  15  29  ~/static/imgDis.py
--'  15  25  ~/static/style.css
--'  1  0  ~/static/style.css
--'  1  0  ~/style.css
 
 # History of marks within files (newest to oldest):
+
+> ~/templates/index.html
+	"	71	0
+	^	71	1
+	.	71	1
+	+	28	45
+	+	33	41
+	+	34	26
+	+	35	45
+	+	37	43
+	+	36	33
+	+	9	52
+	+	28	47
+	+	33	49
+	+	34	34
+	+	35	34
+	+	11	0
+	+	10	29
+	+	28	23
+	+	33	7
+	+	6	36
+	+	49	54
+	+	52	10
+	+	69	3
+	+	52	5
+	+	69	9
+	+	50	63
+	+	60	63
+	+	64	44
+	+	64	55
+	+	67	12
+	+	68	0
+	+	51	29
+	+	56	25
+	+	61	23
+	+	66	28
+	+	43	16
+	+	43	22
+	+	44	0
+	+	43	27
+	+	45	76
+	+	51	24
+	+	50	85
+	+	51	42
+	+	50	64
+	+	50	64
+	+	56	37
+	+	61	35
+	+	66	22
+	+	51	19
+	+	51	18
+	+	56	17
+	+	55	63
+	+	56	25
+	+	51	28
+	+	61	24
+	+	66	29
+	+	34	31
+	+	35	39
+	+	36	37
+	+	37	42
+	+	34	31
+	+	35	28
+	+	36	26
+	+	37	30
+	+	66	22
+	+	70	122
+	+	70	176
+	+	70	46
+	+	71	7
+	+	70	54
+	+	70	180
+	+	70	52
+	+	70	11
+	+	70	177
+	+	71	10
+	+	71	1
+	p	51	37
+
+> ~/etc/defaults.cfg
+	"	1	0
+	^	5	28
+	.	5	27
+	+	5	27
+
+> ~/index.py
+	"	33	0
+	^	33	0
+	.	33	0
+	+	3	131
+	+	3	258
+	+	3	131
+	+	3	175
+	+	1	48
+	+	3	82
+	+	3	34
+	+	5	0
+	+	5	67
+	+	3	21
+	+	3	21
+	+	1	40
+	+	57	40
+	+	39	29
+	+	39	159
+	+	39	0
+	+	39	30
+	+	39	53
+	+	39	76
+	+	39	122
+	+	39	135
+	+	39	54
+	+	5	13
+	+	39	29
+	+	41	40
+	+	5	13
+	+	40	6
+	+	43	25
+	+	48	4
+	+	44	5
+	+	53	40
+	+	45	36
+	+	53	40
+	+	54	0
+	+	41	37
+	+	45	36
+	+	49	36
+	+	53	36
+	+	41	35
+	+	45	35
+	+	49	35
+	+	53	35
+	+	41	36
+	+	5	64
+	+	53	102
+	+	1	62
+	+	58	0
+	+	3	21
+	+	3	21
+	+	4	0
+	+	32	37
+	+	9	20
+	+	10	40
+	+	32	37
+	+	34	0
+	+	5	0
+	+	9	21
+	+	31	7
+	+	30	11
+	+	1	18
+	+	39	0
+	+	40	0
+	+	41	1
+	+	43	0
+	+	39	0
+	+	40	0
+	+	41	1
+	+	53	35
+	+	53	57
+	+	53	73
+	+	2	48
+	+	6	19
+	+	53	35
+	+	35	15
+	+	37	37
+	+	5	0
+	+	6	0
+	+	33	0
+
+> ~/templates/LCD.html
+	"	53	25
+	^	53	26
+	.	53	25
+	+	34	31
+	+	35	39
+	+	36	37
+	+	37	42
+	+	34	19
+	+	35	18
+	+	36	18
+	+	37	18
+	+	53	25
+	+	58	38
+	+	3	19
+	+	46	24
+	+	53	39
+	+	3	31
+	+	37	22
+	+	38	17
+	+	39	26
+	+	40	27
+	+	53	25
+
+> ~/templates/AF.html
+	"	53	6
+	^	64	7
+	.	40	27
+	+	54	11
+	+	50	0
+	+	46	20
+	+	47	0
+	+	57	70
+	+	58	54
+	+	36	32
+	+	54	0
+	+	52	6
+	+	58	21
+	+	12	8
+	+	14	4
+	+	3	26
+	+	37	31
+	+	38	27
+	+	39	26
+	+	40	27
+
+> ~/templates/AM.html
+	"	40	30
+	^	40	31
+	.	40	30
+	+	3	27
+	+	53	37
+	+	3	30
+	+	46	23
+	+	37	27
+	+	38	27
+	+	39	26
+	+	40	30
+
+> ~/templates/RH.html
+	"	40	30
+	^	40	31
+	.	40	30
+	+	53	24
+	+	46	18
+	+	58	19
+	+	3	25
+	+	46	18
+	+	53	37
+	+	58	16
+	+	37	31
+	+	38	27
+	+	39	26
+	+	40	30
 
 > ~/.gitignore
 	"	1	0
@@ -189,53 +437,6 @@ $
 
 > ~/project/404.html
 	"	1	0
-
-> ~/templates/index.html
-	"	31	7
-	^	31	8
-	.	31	7
-	+	26	45
-	+	31	41
-	+	32	26
-	+	33	45
-	+	35	43
-	+	34	33
-	+	7	52
-	+	26	47
-	+	31	49
-	+	32	34
-	+	33	34
-	+	9	0
-	+	8	29
-	+	26	23
-	+	31	7
-
-> ~/index.py
-	"	10	1
-	^	10	2
-	.	10	2
-	+	2	131
-	+	2	258
-	+	2	131
-	+	2	175
-	+	1	48
-	+	2	82
-	+	2	34
-	+	4	0
-	+	6	41
-	+	2	21
-	+	3	0
-	+	1	40
-	+	17	40
-	+	8	29
-	+	13	26
-	+	8	0
-	+	9	0
-	+	10	1
-	+	11	2
-	+	12	2
-	+	13	2
-	+	10	2
 
 > ~/templates/404.html
 	"	16	43
