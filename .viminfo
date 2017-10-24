@@ -12,8 +12,8 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-:w
 :q
+:w
 :W
 :wq imgDis.py
 :wq style.css
@@ -58,27 +58,36 @@ $
 	x
 
 # File marks:
-'0  71  0  ~/templates/index.html
-'1  1  0  ~/etc/defaults.cfg
-'2  33  0  ~/index.py
-'3  53  34  ~/index.py
-'4  5  27  ~/etc/defaults.cfg
-'5  58  58  ~/index.py
-'6  1  0  ~/.gitignore
-'7  1  0  ~/index.html
-'8  1  0  ~/project/templates/index.html
-'9  4  33  ~/project/templates/404.html
+'0  40  30  ~/templates/AF.html
+'1  40  1  ~/templates/AM.html
+'2  40  30  ~/templates/LCD.html
+'3  1  0  ~/templates/LCD
+'4  38  21  ~/templates/AF.html
+'5  39  21  ~/templates/RH.html
+'6  37  22  ~/templates/AF.html
+'7  38  21  ~/templates/LCD.html
+'8  39  36  ~/index.py
+'9  71  37  ~/index.py
 
 # Jumplist (newest first):
--'  71  0  ~/templates/index.html
--'  1  1  ~/templates/index.html
--'  1  0  ~/etc/defaults.cfg
--'  33  0  ~/index.py
+-'  40  30  ~/templates/AF.html
+-'  1  1  ~/templates/AF.html
+-'  40  1  ~/templates/AM.html
+-'  1  1  ~/templates/AM.html
+-'  40  30  ~/templates/LCD.html
+-'  1  1  ~/templates/LCD.html
+-'  1  0  ~/templates/LCD
+-'  38  21  ~/templates/AF.html
+-'  39  21  ~/templates/RH.html
+-'  1  1  ~/templates/RH.html
+-'  37  22  ~/templates/AF.html
+-'  38  21  ~/templates/LCD.html
+-'  39  36  ~/index.py
 -'  1  0  ~/index.py
--'  53  34  ~/index.py
--'  39  0  ~/index.py
+-'  71  37  ~/index.py
 -'  5  27  ~/etc/defaults.cfg
--'  58  58  ~/index.py
+-'  1  0  ~/etc/defaults.cfg
+-'  72  58  ~/index.py
 -'  1  0  ~/.gitignore
 -'  1  0  ~/index.html
 -'  1  0  ~/project/templates/index.html
@@ -86,6 +95,7 @@ $
 -'  1  0  ~/project/templates/404.html
 -'  1  0  ~/project/404.html
 -'  31  7  ~/templates/index.html
+-'  1  0  ~/templates/index.html
 -'  8  29  ~/templates/index.html
 -'  33  34  ~/templates/index.html
 -'  47  6  ~/templates/bootstrapTest.html
@@ -159,18 +169,209 @@ $
 -'  10  36  ~/503.py
 -'  1  0  ~/503.py
 -'  9  6  ~/templates/loops.html
--'  1  0  ~/templates/loops.html
--'  10  38  ~/templates/helloFlask.py
--'  1  0  ~/templates/helloFlask.py
--'  7  38  ~/templates/helloFlask.py
--'  3  6  ~/templates/hello.html
--'  1  0  ~/templates/hello.html
--'  8  30  ~/static/RandR.py
--'  1  0  ~/static/RandR.py
--'  23  36  ~/static/RandR.py
--'  17  11  ~/static/decorator.py
 
 # History of marks within files (newest to oldest):
+
+> ~/templates/AF.html
+	"	40	30
+	^	40	31
+	.	40	30
+	+	54	11
+	+	50	0
+	+	46	20
+	+	47	0
+	+	57	70
+	+	58	54
+	+	36	32
+	+	54	0
+	+	52	6
+	+	58	21
+	+	12	8
+	+	14	4
+	+	3	26
+	+	37	31
+	+	38	27
+	+	39	26
+	+	40	27
+	+	36	7
+	+	37	7
+	+	38	21
+	+	40	30
+
+> ~/templates/AM.html
+	"	40	1
+	^	40	22
+	.	40	21
+	+	3	27
+	+	53	37
+	+	3	30
+	+	46	23
+	+	37	27
+	+	38	27
+	+	39	26
+	+	40	30
+	+	36	7
+	+	40	21
+
+> ~/templates/LCD.html
+	"	40	30
+	^	40	31
+	.	40	30
+	+	34	31
+	+	35	39
+	+	36	37
+	+	37	42
+	+	34	19
+	+	35	18
+	+	36	18
+	+	37	18
+	+	53	25
+	+	58	38
+	+	3	19
+	+	46	24
+	+	53	39
+	+	3	31
+	+	37	22
+	+	38	17
+	+	39	26
+	+	40	27
+	+	53	25
+	+	36	7
+	+	37	21
+	+	40	30
+
+> ~/templates/LCD
+	"	1	0
+
+> ~/templates/RH.html
+	"	39	21
+	^	39	22
+	.	39	21
+	+	53	24
+	+	46	18
+	+	58	19
+	+	3	25
+	+	46	18
+	+	53	37
+	+	58	16
+	+	37	31
+	+	38	27
+	+	39	26
+	+	40	30
+	+	36	6
+	+	37	7
+	+	39	21
+
+> ~/index.py
+	"	39	36
+	^	39	37
+	.	39	36
+	+	3	21
+	+	1	40
+	+	72	88
+	+	71	130
+	+	71	260
+	+	71	101
+	+	71	131
+	+	71	154
+	+	71	177
+	+	71	223
+	+	71	236
+	+	71	155
+	+	5	13
+	+	71	130
+	+	71	180
+	+	5	13
+	+	71	136
+	+	71	201
+	+	71	273
+	+	71	206
+	+	71	390
+	+	71	246
+	+	71	390
+	+	72	0
+	+	71	177
+	+	71	246
+	+	71	314
+	+	71	386
+	+	71	175
+	+	71	245
+	+	71	313
+	+	71	385
+	+	71	176
+	+	5	64
+	+	71	452
+	+	1	62
+	+	72	0
+	+	3	21
+	+	3	21
+	+	4	0
+	+	71	37
+	+	48	20
+	+	49	40
+	+	71	37
+	+	71	37
+	+	5	0
+	+	48	21
+	+	70	7
+	+	69	11
+	+	1	18
+	+	71	101
+	+	71	130
+	+	71	141
+	+	71	176
+	+	71	101
+	+	71	130
+	+	71	141
+	+	71	385
+	+	71	407
+	+	71	423
+	+	2	48
+	+	45	19
+	+	71	385
+	+	71	52
+	+	71	100
+	+	5	0
+	+	45	0
+	+	71	37
+	+	5	15
+	+	9	29
+	+	26	9
+	+	41	0
+	+	72	0
+	+	43	35
+	+	72	0
+	+	73	0
+	+	43	40
+	+	35	39
+	+	27	39
+	+	19	39
+	+	11	40
+	+	7	42
+	+	45	19
+	+	15	31
+	+	2	58
+	+	13	15
+	+	16	0
+	+	15	29
+	+	24	0
+	+	23	31
+	+	22	5
+	+	15	33
+	+	31	31
+	+	39	32
+	+	23	32
+	+	39	24
+	+	15	37
+	+	23	36
+	+	31	36
+	+	39	36
+
+> ~/first.py
+	"	1	0
+	^	1	7
+	.	1	6
+	+	1	6
 
 > ~/templates/index.html
 	"	71	0
@@ -255,164 +456,6 @@ $
 	^	5	28
 	.	5	27
 	+	5	27
-
-> ~/index.py
-	"	33	0
-	^	33	0
-	.	33	0
-	+	3	131
-	+	3	258
-	+	3	131
-	+	3	175
-	+	1	48
-	+	3	82
-	+	3	34
-	+	5	0
-	+	5	67
-	+	3	21
-	+	3	21
-	+	1	40
-	+	57	40
-	+	39	29
-	+	39	159
-	+	39	0
-	+	39	30
-	+	39	53
-	+	39	76
-	+	39	122
-	+	39	135
-	+	39	54
-	+	5	13
-	+	39	29
-	+	41	40
-	+	5	13
-	+	40	6
-	+	43	25
-	+	48	4
-	+	44	5
-	+	53	40
-	+	45	36
-	+	53	40
-	+	54	0
-	+	41	37
-	+	45	36
-	+	49	36
-	+	53	36
-	+	41	35
-	+	45	35
-	+	49	35
-	+	53	35
-	+	41	36
-	+	5	64
-	+	53	102
-	+	1	62
-	+	58	0
-	+	3	21
-	+	3	21
-	+	4	0
-	+	32	37
-	+	9	20
-	+	10	40
-	+	32	37
-	+	34	0
-	+	5	0
-	+	9	21
-	+	31	7
-	+	30	11
-	+	1	18
-	+	39	0
-	+	40	0
-	+	41	1
-	+	43	0
-	+	39	0
-	+	40	0
-	+	41	1
-	+	53	35
-	+	53	57
-	+	53	73
-	+	2	48
-	+	6	19
-	+	53	35
-	+	35	15
-	+	37	37
-	+	5	0
-	+	6	0
-	+	33	0
-
-> ~/templates/LCD.html
-	"	53	25
-	^	53	26
-	.	53	25
-	+	34	31
-	+	35	39
-	+	36	37
-	+	37	42
-	+	34	19
-	+	35	18
-	+	36	18
-	+	37	18
-	+	53	25
-	+	58	38
-	+	3	19
-	+	46	24
-	+	53	39
-	+	3	31
-	+	37	22
-	+	38	17
-	+	39	26
-	+	40	27
-	+	53	25
-
-> ~/templates/AF.html
-	"	53	6
-	^	64	7
-	.	40	27
-	+	54	11
-	+	50	0
-	+	46	20
-	+	47	0
-	+	57	70
-	+	58	54
-	+	36	32
-	+	54	0
-	+	52	6
-	+	58	21
-	+	12	8
-	+	14	4
-	+	3	26
-	+	37	31
-	+	38	27
-	+	39	26
-	+	40	27
-
-> ~/templates/AM.html
-	"	40	30
-	^	40	31
-	.	40	30
-	+	3	27
-	+	53	37
-	+	3	30
-	+	46	23
-	+	37	27
-	+	38	27
-	+	39	26
-	+	40	30
-
-> ~/templates/RH.html
-	"	40	30
-	^	40	31
-	.	40	30
-	+	53	24
-	+	46	18
-	+	58	19
-	+	3	25
-	+	46	18
-	+	53	37
-	+	58	16
-	+	37	31
-	+	38	27
-	+	39	26
-	+	40	30
 
 > ~/.gitignore
 	"	1	0
