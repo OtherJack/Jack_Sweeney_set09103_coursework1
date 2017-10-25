@@ -69,4 +69,3 @@ if __name__  == '__main__':
     app.run(
         host=app.config['ip_address'],
         port=int(app.config['port']))
-
